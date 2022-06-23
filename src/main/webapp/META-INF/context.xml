@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/">
+    <Resource
+            name="jdbc/oracle"
+            author="Container"
+            type="javax.sql.DataSource"
+            maxActive="32"
+            maxIdle="8"
+            maxWait="10000"
+            username="SYS as sysdba"
+            password="12345"
+            driverClassName="oracle.jdbc.driver.OracleDriver"
+            url="jdbc:oracle:thin:@localhost:1521:XE"
+    />
+</Context>
